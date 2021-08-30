@@ -5,13 +5,13 @@ public class Factorial
 {
   public static void main(String [ ]args);
      {
-         int i,factorial=1,number;
+         int j,factorial=1,num;
          System.out.println("Enter the number to which you need to find the factorial:");
          Scanner fact= new Scanner(System.in);
-         number= fact.nextInt();
-         for(i=1;i<number;i++)
+         num= fact.nextInt();
+         for(j=1;i<num;j++)
          {
-             factorial=factorial*i;
+             factorial=factorial*j;
           }
           System.out.println("Factorial of the given number is:"+ factorial);
       }
